@@ -1,0 +1,4 @@
+1|-1|p|p|n|u|5432|gphost|gphost|/home/gpadmin/data/gpsne-1
+2|0|p|p|n|u|6000|gphost|gphost|/home/gpadmin/data/gpsne0
+3|1|p|p|n|u|6001|gphost|gphost|/home/gpadmin/data/gpsne1
+4|2|p|p|n|u|6002|gphost|gphost|/home/gpadmin/data/gpsne2

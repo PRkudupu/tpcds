@@ -1,0 +1,404 @@
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/112.dsbench.01.sql
+sed -n 479,503p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/112.dsbench.01.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/112.dsbench.01.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/184.dsbench.02.sql
+sed -n 4018,4077p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/184.dsbench.02.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/184.dsbench.02.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/145.dsbench.03.sql
+sed -n 2031,2051p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/145.dsbench.03.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/145.dsbench.03.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/193.dsbench.04.sql
+sed -n 4392,4507p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/193.dsbench.04.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/193.dsbench.04.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/198.dsbench.05.sql
+sed -n 4696,4823p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/198.dsbench.05.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/198.dsbench.05.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/158.dsbench.06.sql
+sed -n 2622,2647p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/158.dsbench.06.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/158.dsbench.06.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/102.dsbench.07.sql
+sed -n 17,37p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/102.dsbench.07.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/102.dsbench.07.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/163.dsbench.08.sql
+sed -n 2803,2910p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/163.dsbench.08.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/163.dsbench.08.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/149.dsbench.09.sql
+sed -n 2282,2332p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/149.dsbench.09.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/149.dsbench.09.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/126.dsbench.10.sql
+sed -n 1048,1106p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/126.dsbench.10.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/126.dsbench.10.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/151.dsbench.11.sql
+sed -n 2385,2465p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/151.dsbench.11.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/151.dsbench.11.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/164.dsbench.12.sql
+sed -n 2911,2944p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/164.dsbench.12.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/164.dsbench.12.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/191.dsbench.13.sql
+sed -n 4241,4292p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/191.dsbench.13.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/191.dsbench.13.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/169.dsbench.14.sql
+sed -n 3193,3390p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/169.dsbench.14.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/169.dsbench.14.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/157.dsbench.15.sql
+sed -n 2602,2621p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/157.dsbench.15.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/157.dsbench.15.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/125.dsbench.16.sql
+sed -n 1017,1047p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/125.dsbench.16.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/125.dsbench.16.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/141.dsbench.17.sql
+sed -n 1873,1917p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/141.dsbench.17.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/141.dsbench.17.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/190.dsbench.18.sql
+sed -n 4207,4240p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/190.dsbench.18.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/190.dsbench.18.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/108.dsbench.19.sql
+sed -n 321,345p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/108.dsbench.19.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/108.dsbench.19.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/165.dsbench.20.sql
+sed -n 2945,2974p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/165.dsbench.20.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/165.dsbench.20.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/114.dsbench.21.sql
+sed -n 535,564p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/114.dsbench.21.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/114.dsbench.21.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/155.dsbench.22.sql
+sed -n 2554,2573p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/155.dsbench.22.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/155.dsbench.22.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/168.dsbench.23.sql
+sed -n 3086,3192p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/168.dsbench.23.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/168.dsbench.23.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/192.dsbench.24.sql
+sed -n 4293,4391p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/192.dsbench.24.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/192.dsbench.24.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/109.dsbench.25.sql
+sed -n 346,393p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/109.dsbench.25.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/109.dsbench.25.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/185.dsbench.26.sql
+sed -n 4078,4098p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/185.dsbench.26.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/185.dsbench.26.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/116.dsbench.27.sql
+sed -n 584,606p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/116.dsbench.27.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/116.dsbench.27.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/136.dsbench.28.sql
+sed -n 1522,1574p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/136.dsbench.28.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/136.dsbench.28.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/153.dsbench.29.sql
+sed -n 2484,2530p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/153.dsbench.29.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/153.dsbench.29.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/175.dsbench.30.sql
+sed -n 3608,3638p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/175.dsbench.30.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/175.dsbench.30.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/150.dsbench.31.sql
+sed -n 2333,2384p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/150.dsbench.31.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/150.dsbench.31.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/107.dsbench.32.sql
+sed -n 293,320p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/107.dsbench.32.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/107.dsbench.32.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/122.dsbench.33.sql
+sed -n 872,946p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/122.dsbench.33.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/122.dsbench.33.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/173.dsbench.34.sql
+sed -n 3509,3540p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/173.dsbench.34.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/173.dsbench.34.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/147.dsbench.35.sql
+sed -n 2097,2154p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/147.dsbench.35.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/147.dsbench.35.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/121.dsbench.36.sql
+sed -n 841,871p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/121.dsbench.36.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/121.dsbench.36.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/131.dsbench.37.sql
+sed -n 1305,1321p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/131.dsbench.37.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/131.dsbench.37.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/154.dsbench.38.sql
+sed -n 2531,2553p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/154.dsbench.38.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/154.dsbench.38.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/105.dsbench.39.sql
+sed -n 143,196p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/105.dsbench.39.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/105.dsbench.39.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/186.dsbench.40.sql
+sed -n 4099,4126p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/186.dsbench.40.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/186.dsbench.40.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/162.dsbench.41.sql
+sed -n 2751,2802p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/162.dsbench.41.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/162.dsbench.41.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/161.dsbench.42.sql
+sed -n 2729,2750p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/161.dsbench.42.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/161.dsbench.42.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/115.dsbench.43.sql
+sed -n 565,583p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/115.dsbench.43.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/115.dsbench.43.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/104.dsbench.44.sql
+sed -n 108,142p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/104.dsbench.44.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/104.dsbench.44.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/118.dsbench.45.sql
+sed -n 636,655p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/118.dsbench.45.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/118.dsbench.45.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/123.dsbench.46.sql
+sed -n 947,981p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/123.dsbench.46.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/123.dsbench.46.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/142.dsbench.47.sql
+sed -n 1918,1968p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/142.dsbench.47.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/142.dsbench.47.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/174.dsbench.48.sql
+sed -n 3541,3607p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/174.dsbench.48.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/174.dsbench.48.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/148.dsbench.49.sql
+sed -n 2155,2281p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/148.dsbench.49.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/148.dsbench.49.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/160.dsbench.50.sql
+sed -n 2670,2728p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/160.dsbench.50.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/160.dsbench.50.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/146.dsbench.51.sql
+sed -n 2052,2096p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/146.dsbench.51.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/146.dsbench.51.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/159.dsbench.52.sql
+sed -n 2648,2669p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/159.dsbench.52.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/159.dsbench.52.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/188.dsbench.53.sql
+sed -n 4156,4183p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/188.dsbench.53.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/188.dsbench.53.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/181.dsbench.54.sql
+sed -n 3880,3935p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/181.dsbench.54.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/181.dsbench.54.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/182.dsbench.55.sql
+sed -n 3936,3949p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/182.dsbench.55.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/182.dsbench.55.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/183.dsbench.56.sql
+sed -n 3950,4017p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/183.dsbench.56.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/183.dsbench.56.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/170.dsbench.57.sql
+sed -n 3391,3438p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/170.dsbench.57.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/170.dsbench.57.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/119.dsbench.58.sql
+sed -n 656,720p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/119.dsbench.58.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/119.dsbench.58.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/130.dsbench.59.sql
+sed -n 1261,1304p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/130.dsbench.59.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/130.dsbench.59.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/129.dsbench.60.sql
+sed -n 1183,1260p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/129.dsbench.60.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/129.dsbench.60.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/197.dsbench.61.sql
+sed -n 4652,4695p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/197.dsbench.61.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/197.dsbench.61.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/124.dsbench.62.sql
+sed -n 982,1016p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/124.dsbench.62.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/124.dsbench.62.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/127.dsbench.63.sql
+sed -n 1107,1135p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/127.dsbench.63.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/127.dsbench.63.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/120.dsbench.64.sql
+sed -n 721,840p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/120.dsbench.64.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/120.dsbench.64.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/171.dsbench.65.sql
+sed -n 3439,3467p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/171.dsbench.65.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/171.dsbench.65.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/139.dsbench.66.sql
+sed -n 1631,1850p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/139.dsbench.66.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/139.dsbench.66.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/135.dsbench.67.sql
+sed -n 1478,1521p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/135.dsbench.67.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/135.dsbench.67.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/195.dsbench.68.sql
+sed -n 4543,4584p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/195.dsbench.68.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/195.dsbench.68.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/128.dsbench.69.sql
+sed -n 1136,1182p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/128.dsbench.69.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/128.dsbench.69.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/134.dsbench.70.sql
+sed -n 1439,1477p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/134.dsbench.70.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/134.dsbench.70.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/172.dsbench.71.sql
+sed -n 3468,3508p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/172.dsbench.71.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/172.dsbench.71.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/187.dsbench.72.sql
+sed -n 4127,4155p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/187.dsbench.72.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/187.dsbench.72.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/179.dsbench.73.sql
+sed -n 3831,3858p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/179.dsbench.73.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/179.dsbench.73.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/176.dsbench.74.sql
+sed -n 3639,3699p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/176.dsbench.74.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/176.dsbench.74.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/103.dsbench.75.sql
+sed -n 38,107p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/103.dsbench.75.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/103.dsbench.75.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/199.dsbench.76.sql
+sed -n 4824,4847p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/199.dsbench.76.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/199.dsbench.76.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/178.dsbench.77.sql
+sed -n 3723,3830p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/178.dsbench.77.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/178.dsbench.77.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/110.dsbench.78.sql
+sed -n 394,451p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/110.dsbench.78.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/110.dsbench.78.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/189.dsbench.79.sql
+sed -n 4184,4206p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/189.dsbench.79.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/189.dsbench.79.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/106.dsbench.80.sql
+sed -n 197,292p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/106.dsbench.80.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/106.dsbench.80.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/137.dsbench.81.sql
+sed -n 1575,1605p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/137.dsbench.81.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/137.dsbench.81.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/167.dsbench.82.sql
+sed -n 3069,3085p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/167.dsbench.82.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/167.dsbench.82.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/196.dsbench.83.sql
+sed -n 4585,4651p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/196.dsbench.83.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/196.dsbench.83.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/180.dsbench.84.sql
+sed -n 3859,3879p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/180.dsbench.84.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/180.dsbench.84.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/133.dsbench.85.sql
+sed -n 1355,1438p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/133.dsbench.85.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/133.dsbench.85.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/111.dsbench.86.sql
+sed -n 452,478p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/111.dsbench.86.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/111.dsbench.86.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/177.dsbench.87.sql
+sed -n 3700,3722p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/177.dsbench.87.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/177.dsbench.87.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/166.dsbench.88.sql
+sed -n 2975,3068p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/166.dsbench.88.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/166.dsbench.88.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/156.dsbench.89.sql
+sed -n 2574,2601p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/156.dsbench.89.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/156.dsbench.89.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/140.dsbench.90.sql
+sed -n 1851,1872p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/140.dsbench.90.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/140.dsbench.90.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/113.dsbench.91.sql
+sed -n 504,534p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/113.dsbench.91.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/113.dsbench.91.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/144.dsbench.92.sql
+sed -n 2001,2030p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/144.dsbench.92.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/144.dsbench.92.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/152.dsbench.93.sql
+sed -n 2466,2483p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/152.dsbench.93.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/152.dsbench.93.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/117.dsbench.94.sql
+sed -n 607,635p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/117.dsbench.94.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/117.dsbench.94.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/143.dsbench.95.sql
+sed -n 1969,2000p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/143.dsbench.95.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/143.dsbench.95.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/101.dsbench.96.sql
+sed -n 1,16p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/101.dsbench.96.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/101.dsbench.96.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/138.dsbench.97.sql
+sed -n 1606,1630p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/138.dsbench.97.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/138.dsbench.97.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/132.dsbench.98.sql
+sed -n 1322,1354p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/132.dsbench.98.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/132.dsbench.98.sql
+print "set role dsbench;\n:EXPLAIN_ANALYZE\n" > /root/data/TPC-DS/07_multi_user/1/194.dsbench.99.sql
+sed -n 4508,4542p /root/data/TPC-DS/07_multi_user/1/query_0.sql >> /root/data/TPC-DS/07_multi_user/1/194.dsbench.99.sql
+Completed: /root/data/TPC-DS/07_multi_user/1/194.dsbench.99.sql
+rm -f /root/data/TPC-DS/07_multi_user/1/query_*.sql
+
+queries 14, 23, 24, and 39 have 2 queries in each file.  Need to add :EXPLAIN_ANALYZE to second query in these files
+
+myfilename: /root/data/TPC-DS/07_multi_user/1/*.dsbench.14.sql
+myfilename: /root/data/TPC-DS/07_multi_user/1/*.dsbench.23.sql
+myfilename: /root/data/TPC-DS/07_multi_user/1/*.dsbench.24.sql
+myfilename: /root/data/TPC-DS/07_multi_user/1/*.dsbench.39.sql
+[2023-04-30 07:33:23] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/101.dsbench.96.sql | wc -l
+[2023-04-30 07:33:23] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/102.dsbench.07.sql | wc -l
+[2023-04-30 07:33:24] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/103.dsbench.75.sql | wc -l
+[2023-04-30 07:33:27] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/104.dsbench.44.sql | wc -l
+[2023-04-30 07:33:29] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/105.dsbench.39.sql | wc -l
+[2023-04-30 07:33:32] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/106.dsbench.80.sql | wc -l
+[2023-04-30 07:33:34] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/107.dsbench.32.sql | wc -l
+[2023-04-30 07:33:34] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/108.dsbench.19.sql | wc -l
+[2023-04-30 07:33:35] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/109.dsbench.25.sql | wc -l
+[2023-04-30 07:33:35] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/110.dsbench.78.sql | wc -l
+[2023-04-30 07:33:40] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/111.dsbench.86.sql | wc -l
+[2023-04-30 07:33:40] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/112.dsbench.01.sql | wc -l
+[2023-04-30 07:33:41] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/113.dsbench.91.sql | wc -l
+[2023-04-30 07:33:41] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/114.dsbench.21.sql | wc -l
+[2023-04-30 07:33:42] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/115.dsbench.43.sql | wc -l
+[2023-04-30 07:33:43] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/116.dsbench.27.sql | wc -l
+[2023-04-30 07:33:44] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/117.dsbench.94.sql | wc -l
+[2023-04-30 07:33:45] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/118.dsbench.45.sql | wc -l
+[2023-04-30 07:33:46] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/119.dsbench.58.sql | wc -l
+[2023-04-30 07:33:47] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/120.dsbench.64.sql | wc -l
+[2023-04-30 07:33:51] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/121.dsbench.36.sql | wc -l
+[2023-04-30 07:33:53] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/122.dsbench.33.sql | wc -l
+[2023-04-30 07:33:54] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/123.dsbench.46.sql | wc -l
+[2023-04-30 07:33:55] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/124.dsbench.62.sql | wc -l
+[2023-04-30 07:33:56] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/125.dsbench.16.sql | wc -l
+[2023-04-30 07:33:59] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/126.dsbench.10.sql | wc -l
+[2023-04-30 07:34:00] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/127.dsbench.63.sql | wc -l
+[2023-04-30 07:34:01] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/128.dsbench.69.sql | wc -l
+[2023-04-30 07:34:02] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/129.dsbench.60.sql | wc -l
+[2023-04-30 07:34:04] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/130.dsbench.59.sql | wc -l
+[2023-04-30 07:34:08] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/131.dsbench.37.sql | wc -l
+[2023-04-30 07:34:08] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/132.dsbench.98.sql | wc -l
+[2023-04-30 07:34:08] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/133.dsbench.85.sql | wc -l
+[2023-04-30 07:34:11] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/134.dsbench.70.sql | wc -l
+[2023-04-30 07:34:12] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/135.dsbench.67.sql | wc -l
+[2023-04-30 07:34:23] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/136.dsbench.28.sql | wc -l
+[2023-04-30 07:34:29] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/137.dsbench.81.sql | wc -l
+[2023-04-30 07:34:29] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/138.dsbench.97.sql | wc -l
+[2023-04-30 07:34:31] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/139.dsbench.66.sql | wc -l
+[2023-04-30 07:34:32] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/140.dsbench.90.sql | wc -l
+[2023-04-30 07:34:33] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/141.dsbench.17.sql | wc -l
+[2023-04-30 07:34:34] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/142.dsbench.47.sql | wc -l
+[2023-04-30 07:34:38] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/143.dsbench.95.sql | wc -l
+[2023-04-30 07:34:43] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/144.dsbench.92.sql | wc -l
+[2023-04-30 07:34:43] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/145.dsbench.03.sql | wc -l
+[2023-04-30 07:34:44] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/146.dsbench.51.sql | wc -l
+[2023-04-30 07:34:47] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/147.dsbench.35.sql | wc -l
+[2023-04-30 07:34:48] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/148.dsbench.49.sql | wc -l
+[2023-04-30 07:34:49] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/149.dsbench.09.sql | wc -l
+[2023-04-30 07:34:54] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/150.dsbench.31.sql | wc -l
+[2023-04-30 07:34:56] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/151.dsbench.11.sql | wc -l
+[2023-04-30 07:34:59] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/152.dsbench.93.sql | wc -l
+[2023-04-30 07:35:04] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/153.dsbench.29.sql | wc -l
+[2023-04-30 07:35:05] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/154.dsbench.38.sql | wc -l
+[2023-04-30 07:35:07] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/155.dsbench.22.sql | wc -l
+[2023-04-30 07:35:12] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/156.dsbench.89.sql | wc -l
+[2023-04-30 07:35:13] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/157.dsbench.15.sql | wc -l
+[2023-04-30 07:35:13] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/158.dsbench.06.sql | wc -l
+[2023-04-30 07:35:14] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/159.dsbench.52.sql | wc -l
+[2023-04-30 07:35:14] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/160.dsbench.50.sql | wc -l
+[2023-04-30 07:35:15] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/161.dsbench.42.sql | wc -l
+[2023-04-30 07:35:15] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/162.dsbench.41.sql | wc -l
+[2023-04-30 07:35:15] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/163.dsbench.08.sql | wc -l
+[2023-04-30 07:35:16] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/164.dsbench.12.sql | wc -l
+[2023-04-30 07:35:16] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/165.dsbench.20.sql | wc -l
+[2023-04-30 07:35:17] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/166.dsbench.88.sql | wc -l
+[2023-04-30 07:35:22] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/167.dsbench.82.sql | wc -l
+[2023-04-30 07:35:24] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/168.dsbench.23.sql | wc -l
+[2023-04-30 07:35:50] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/169.dsbench.14.sql | wc -l
+[2023-04-30 07:36:02] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/170.dsbench.57.sql | wc -l
+[2023-04-30 07:36:04] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/171.dsbench.65.sql | wc -l
+[2023-04-30 07:36:06] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/172.dsbench.71.sql | wc -l
+[2023-04-30 07:36:07] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/173.dsbench.34.sql | wc -l
+[2023-04-30 07:36:07] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/174.dsbench.48.sql | wc -l
+[2023-04-30 07:36:09] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/175.dsbench.30.sql | wc -l
+[2023-04-30 07:36:10] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/176.dsbench.74.sql | wc -l
+[2023-04-30 07:36:13] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/177.dsbench.87.sql | wc -l
+[2023-04-30 07:36:15] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/178.dsbench.77.sql | wc -l
+[2023-04-30 07:36:16] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/179.dsbench.73.sql | wc -l
+[2023-04-30 07:36:16] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/180.dsbench.84.sql | wc -l
+[2023-04-30 07:36:17] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/181.dsbench.54.sql | wc -l
+[2023-04-30 07:36:18] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/182.dsbench.55.sql | wc -l
+[2023-04-30 07:36:18] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/183.dsbench.56.sql | wc -l
+[2023-04-30 07:36:20] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/184.dsbench.02.sql | wc -l
+[2023-04-30 07:36:24] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/185.dsbench.26.sql | wc -l
+[2023-04-30 07:36:25] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/186.dsbench.40.sql | wc -l
+[2023-04-30 07:36:26] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/187.dsbench.72.sql | wc -l
+[2023-04-30 07:36:30] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/188.dsbench.53.sql | wc -l
+[2023-04-30 07:36:30] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/189.dsbench.79.sql | wc -l
+[2023-04-30 07:36:31] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/190.dsbench.18.sql | wc -l
+[2023-04-30 07:36:33] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/191.dsbench.13.sql | wc -l
+[2023-04-30 07:36:34] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/192.dsbench.24.sql | wc -l
+[2023-04-30 07:36:38] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/193.dsbench.04.sql | wc -l
+[2023-04-30 07:36:45] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/194.dsbench.99.sql | wc -l
+[2023-04-30 07:36:46] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/195.dsbench.68.sql | wc -l
+[2023-04-30 07:36:47] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/196.dsbench.83.sql | wc -l
+[2023-04-30 07:36:48] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/197.dsbench.61.sql | wc -l
+[2023-04-30 07:36:49] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/198.dsbench.05.sql | wc -l
+[2023-04-30 07:36:51] psql -p 5432 -d gpadmin -v ON_ERROR_STOP=1 -A -q -t -P pager=off -v EXPLAIN_ANALYZE= -f /root/data/TPC-DS/07_multi_user/1/199.dsbench.76.sql | wc -l
