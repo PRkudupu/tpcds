@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 24 in stream 0 using template query62.tpl and seed 1074627561
+-- start query 24 in stream 0 using template query62.tpl and seed 1426911450
 select  
    substr(w_warehouse_name,1,20)
   ,sm_type
@@ -20,7 +20,7 @@ from
   ,web_site
   ,date_dim
 where
-    d_month_seq between 1211 and 1211 + 11
+    d_month_seq between 1217 and 1217 + 11
 and ws_ship_date_sk   = d_date_sk
 and ws_warehouse_sk   = w_warehouse_sk
 and ws_ship_mode_sk   = sm_ship_mode_sk

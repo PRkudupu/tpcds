@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 96 in stream 0 using template query83.tpl and seed 568268133
+-- start query 96 in stream 0 using template query83.tpl and seed 1729035510
 with sr_items as
  (select i_item_id item_id,
         sum(sr_return_quantity) sr_item_qty
@@ -14,7 +14,7 @@ with sr_items as
 	where d_week_seq in 
 		(select d_week_seq
 		from date_dim
-	  where d_date in ('2001-02-09','2001-09-14','2001-11-10')))
+	  where d_date in ('1998-07-22','1998-10-16','1998-11-12')))
  and   sr_returned_date_sk   = d_date_sk
  group by i_item_id),
  cr_items as
@@ -30,7 +30,7 @@ with sr_items as
 	where d_week_seq in 
 		(select d_week_seq
 		from date_dim
-	  where d_date in ('2001-02-09','2001-09-14','2001-11-10')))
+	  where d_date in ('1998-07-22','1998-10-16','1998-11-12')))
  and   cr_returned_date_sk   = d_date_sk
  group by i_item_id),
  wr_items as
@@ -46,7 +46,7 @@ with sr_items as
 	where d_week_seq in 
 		(select d_week_seq
 		from date_dim
-		where d_date in ('2001-02-09','2001-09-14','2001-11-10')))
+		where d_date in ('1998-07-22','1998-10-16','1998-11-12')))
  and   wr_returned_date_sk   = d_date_sk
  group by i_item_id)
   select  sr_items.item_id

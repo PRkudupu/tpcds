@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 21 in stream 0 using template query36.tpl and seed 453613426
+-- start query 21 in stream 0 using template query36.tpl and seed 50309708
 select * from (select  
     sum(ss_net_profit)/sum(ss_ext_sales_price) as gross_margin
    ,i_category
@@ -16,12 +16,12 @@ select * from (select
    ,item
    ,store
  where
-    d1.d_year = 1999 
+    d1.d_year = 2001 
  and d1.d_date_sk = ss_sold_date_sk
  and i_item_sk  = ss_item_sk 
  and s_store_sk  = ss_store_sk
- and s_state in ('AL','TN','SD','SD',
-                 'SD','SD','SD','SD')
+ and s_state in ('TN','TN','TN','TN',
+                 'TN','TN','TN','TN')
  group by rollup(i_category,i_class)
 ) as sub
  order by

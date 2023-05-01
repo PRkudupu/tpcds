@@ -9,7 +9,7 @@ export PSQL_OPTIONS="-p 5432"
 #export PSQL_OPTIONS="-p 6543 -U dsbench"
 
 # benchmark options
-export GEN_DATA_SCALE="10"
+export GEN_DATA_SCALE="1"
 export MULTI_USER_COUNT="2"
 
 # step options
@@ -26,34 +26,34 @@ export RUN_GEN_DATA="true"
 export GEN_NEW_DATA="true"
 
 # step 02_init
-export RUN_INIT="true"
+export RUN_INIT="false"
 
 # step 03_ddl
 # To run another TPC-DS with a different BENCH_ROLE using existing tables and data
 # change BENCH_ROLE and set RUN_DDL to true and DROP_EXISTING_TABLES to false
 # DROP_EXISTING_TABLES only takes affect when RUN_DDL is true, and the default setting
 # should true under normal circumstances
-export RUN_DDL="true"
-export DROP_EXISTING_TABLES="true"
+export RUN_DDL="false"
+export DROP_EXISTING_TABLES="false"
 
 # step 04_load
-export RUN_LOAD="true"
+export RUN_LOAD="false"
 
 # step 05_sql
-export RUN_SQL="true"
+export RUN_SQL="false"
 
 # step 06_single_user_reports
-export RUN_SINGLE_USER_REPORTS="true"
+export RUN_SINGLE_USER_REPORTS="false"
 
 # step 07_multi_user
-export RUN_QGEN="true"
-export RUN_MULTI_USER="true"
+export RUN_QGEN="false"
+export RUN_MULTI_USER="false"
 
 # step 08_multi_user_reports
-export RUN_MULTI_USER_REPORTS="true"
+export RUN_MULTI_USER_REPORTS="false"
 
 # step 09_score
-export RUN_SCORE="true"
+export RUN_SCORE="false"
 
 # misc options
 export SINGLE_USER_ITERATIONS="1"

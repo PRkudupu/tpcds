@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 43 in stream 0 using template query95.tpl and seed 1583522449
+-- start query 43 in stream 0 using template query95.tpl and seed 2111118327
 with ws_wh as
 (select ws1.ws_order_number,ws1.ws_warehouse_sk wh1,ws2.ws_warehouse_sk wh2
  from web_sales ws1,web_sales ws2
@@ -16,11 +16,11 @@ from
   ,customer_address
   ,web_site
 where
-    d_date between '2000-2-01' and 
-           (cast('2000-2-01' as date) + '60 days'::interval)
+    d_date between '2002-5-01' and 
+           (cast('2002-5-01' as date) + '60 days'::interval)
 and ws1.ws_ship_date_sk = d_date_sk
 and ws1.ws_ship_addr_sk = ca_address_sk
-and ca_state = 'NE'
+and ca_state = 'TN'
 and ws1.ws_web_site_sk = web_site_sk
 and web_company_name = 'pri'
 and ws1.ws_order_number in (select ws_order_number

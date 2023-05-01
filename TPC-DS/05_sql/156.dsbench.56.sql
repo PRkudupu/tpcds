@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 83 in stream 0 using template query56.tpl and seed 1096140512
+-- start query 83 in stream 0 using template query56.tpl and seed 679357769
 with ss as (
  select i_item_id,sum(ss_ext_sales_price) total_sales
  from
@@ -11,11 +11,11 @@ with ss as (
  where i_item_id in (select
      i_item_id
 from item
-where i_color in ('aquamarine','azure','burlywood'))
+where i_color in ('beige','coral','khaki'))
  and     ss_item_sk              = i_item_sk
  and     ss_sold_date_sk         = d_date_sk
- and     d_year                  = 2000
- and     d_moy                   = 1
+ and     d_year                  = 2002
+ and     d_moy                   = 7
  and     ss_addr_sk              = ca_address_sk
  and     ca_gmt_offset           = -5 
  group by i_item_id),
@@ -30,11 +30,11 @@ where i_color in ('aquamarine','azure','burlywood'))
          i_item_id               in (select
   i_item_id
 from item
-where i_color in ('aquamarine','azure','burlywood'))
+where i_color in ('beige','coral','khaki'))
  and     cs_item_sk              = i_item_sk
  and     cs_sold_date_sk         = d_date_sk
- and     d_year                  = 2000
- and     d_moy                   = 1
+ and     d_year                  = 2002
+ and     d_moy                   = 7
  and     cs_bill_addr_sk         = ca_address_sk
  and     ca_gmt_offset           = -5 
  group by i_item_id),
@@ -49,11 +49,11 @@ where i_color in ('aquamarine','azure','burlywood'))
          i_item_id               in (select
   i_item_id
 from item
-where i_color in ('aquamarine','azure','burlywood'))
+where i_color in ('beige','coral','khaki'))
  and     ws_item_sk              = i_item_sk
  and     ws_sold_date_sk         = d_date_sk
- and     d_year                  = 2000
- and     d_moy                   = 1
+ and     d_year                  = 2002
+ and     d_moy                   = 7
  and     ws_bill_addr_sk         = ca_address_sk
  and     ca_gmt_offset           = -5
  group by i_item_id)

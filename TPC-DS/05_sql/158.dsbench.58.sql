@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 19 in stream 0 using template query58.tpl and seed 517112174
+-- start query 19 in stream 0 using template query58.tpl and seed 262559191
 with ss_items as
  (select i_item_id item_id
         ,sum(ss_ext_sales_price) ss_item_rev 
@@ -12,7 +12,7 @@ with ss_items as
                   from date_dim
                   where d_week_seq = (select d_week_seq 
                                       from date_dim
-                                      where d_date = '2002-04-19'))
+                                      where d_date = '2000-02-12'))
    and ss_sold_date_sk   = d_date_sk
  group by i_item_id),
  cs_items as
@@ -26,7 +26,7 @@ with ss_items as
                   from date_dim
                   where d_week_seq = (select d_week_seq 
                                       from date_dim
-                                      where d_date = '2002-04-19'))
+                                      where d_date = '2000-02-12'))
   and  cs_sold_date_sk = d_date_sk
  group by i_item_id),
  ws_items as
@@ -40,7 +40,7 @@ with ss_items as
                   from date_dim
                   where d_week_seq =(select d_week_seq 
                                      from date_dim
-                                     where d_date = '2002-04-19'))
+                                     where d_date = '2000-02-12'))
   and ws_sold_date_sk   = d_date_sk
  group by i_item_id)
   select  ss_items.item_id

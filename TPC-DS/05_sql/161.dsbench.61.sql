@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 97 in stream 0 using template query61.tpl and seed 361512176
+-- start query 97 in stream 0 using template query61.tpl and seed 1636014072
 select  promotions,total,cast(promotions as decimal(16,4))/cast(total as decimal(16,4))*100
 from
   (select sum(ss_ext_sales_price) promotions
@@ -18,11 +18,11 @@ from
    and   ca_address_sk = c_current_addr_sk
    and   ss_item_sk = i_item_sk 
    and   ca_gmt_offset = -6
-   and   i_category = 'Electronics'
+   and   i_category = 'Home'
    and   (p_channel_dmail = 'Y' or p_channel_email = 'Y' or p_channel_tv = 'Y')
    and   s_gmt_offset = -6
-   and   d_year = 1999
-   and   d_moy  = 11) promotional_sales,
+   and   d_year = 2000
+   and   d_moy  = 12) promotional_sales,
   (select sum(ss_ext_sales_price) total
    from  store_sales
         ,store
@@ -36,10 +36,10 @@ from
    and   ca_address_sk = c_current_addr_sk
    and   ss_item_sk = i_item_sk
    and   ca_gmt_offset = -6
-   and   i_category = 'Electronics'
+   and   i_category = 'Home'
    and   s_gmt_offset = -6
-   and   d_year = 1999
-   and   d_moy  = 11) all_sales
+   and   d_year = 2000
+   and   d_moy  = 12) all_sales
 order by promotions, total
 limit 100;
 

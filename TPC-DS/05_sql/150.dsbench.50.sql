@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 60 in stream 0 using template query50.tpl and seed 857093139
+-- start query 60 in stream 0 using template query50.tpl and seed 1210736412
 select  
    s_store_name
   ,s_company_id
@@ -27,8 +27,8 @@ from
   ,date_dim d1
   ,date_dim d2
 where
-    d2.d_year = 2002
-and d2.d_moy  = 10
+    d2.d_year = 2000
+and d2.d_moy  = 8
 and ss_ticket_number = sr_ticket_number
 and ss_item_sk = sr_item_sk
 and ss_sold_date_sk   = d1.d_date_sk

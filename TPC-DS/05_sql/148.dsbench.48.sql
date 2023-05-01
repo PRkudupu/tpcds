@@ -1,10 +1,10 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 74 in stream 0 using template query48.tpl and seed 1273385626
+-- start query 74 in stream 0 using template query48.tpl and seed 286300017
 select sum (ss_quantity)
  from store_sales, store, customer_demographics, customer_address, date_dim
  where s_store_sk = ss_store_sk
- and  ss_sold_date_sk = d_date_sk and d_year = 1999
+ and  ss_sold_date_sk = d_date_sk and d_year = 2000
  and  
  (
   (
@@ -12,7 +12,7 @@ select sum (ss_quantity)
    and 
    cd_marital_status = 'S'
    and 
-   cd_education_status = 'College'
+   cd_education_status = 'Advanced Degree'
    and 
    ss_sales_price between 100.00 and 150.00  
    )
@@ -20,7 +20,7 @@ select sum (ss_quantity)
   (
   cd_demo_sk = ss_cdemo_sk
    and 
-   cd_marital_status = 'U'
+   cd_marital_status = 'D'
    and 
    cd_education_status = '4 yr Degree'
    and 
@@ -30,9 +30,9 @@ select sum (ss_quantity)
  (
   cd_demo_sk = ss_cdemo_sk
   and 
-   cd_marital_status = 'W'
+   cd_marital_status = 'U'
    and 
-   cd_education_status = 'Advanced Degree'
+   cd_education_status = 'Secondary'
    and 
    ss_sales_price between 150.00 and 200.00  
  )
@@ -44,7 +44,7 @@ select sum (ss_quantity)
   and
   ca_country = 'United States'
   and
-  ca_state in ('FL', 'IA', 'MI')
+  ca_state in ('MN', 'TN', 'IL')
   and ss_net_profit between 0 and 2000  
   )
  or
@@ -52,7 +52,7 @@ select sum (ss_quantity)
   and
   ca_country = 'United States'
   and
-  ca_state in ('WI', 'CO', 'TX')
+  ca_state in ('TX', 'OR', 'ID')
   and ss_net_profit between 150 and 3000 
   )
  or
@@ -60,7 +60,7 @@ select sum (ss_quantity)
   and
   ca_country = 'United States'
   and
-  ca_state in ('DE', 'MN', 'AR')
+  ca_state in ('MI', 'AL', 'RI')
   and ss_net_profit between 50 and 25000 
   )
  )

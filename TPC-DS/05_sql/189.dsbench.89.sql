@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 56 in stream 0 using template query89.tpl and seed 482686711
+-- start query 56 in stream 0 using template query89.tpl and seed 1625415885
 select  *
 from(
 select i_category, i_class, i_brand,
@@ -14,12 +14,12 @@ from item, store_sales, date_dim, store
 where ss_item_sk = i_item_sk and
       ss_sold_date_sk = d_date_sk and
       ss_store_sk = s_store_sk and
-      d_year in (1999) and
-        ((i_category in ('Sports','Books','Men') and
-          i_class in ('football','self-help','pants')
+      d_year in (1998) and
+        ((i_category in ('Electronics','Men','Books') and
+          i_class in ('cameras','shirts','entertainments')
          )
-      or (i_category in ('Shoes','Music','Electronics') and
-          i_class in ('kids','rock','monitors') 
+      or (i_category in ('Music','Women','Jewelry') and
+          i_class in ('classical','dresses','estate') 
         ))
 group by i_category, i_class, i_brand,
          s_store_name, s_company_name, d_moy) tmp1

@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 68 in stream 0 using template query23.tpl and seed 1484168650
+-- start query 68 in stream 0 using template query23.tpl and seed 894274411
 with frequent_ss_items as 
  (select substr(i_item_desc,1,30) itemdesc,i_item_sk item_sk,d_date solddate,count(*) cnt
   from store_sales
@@ -36,7 +36,7 @@ from
        from catalog_sales
            ,date_dim 
        where d_year = 1999 
-         and d_moy = 7 
+         and d_moy = 3 
          and cs_sold_date_sk = d_date_sk 
          and cs_item_sk in (select item_sk from frequent_ss_items)
          and cs_bill_customer_sk in (select c_customer_sk from best_ss_customer)
@@ -45,7 +45,7 @@ from
        from web_sales 
            ,date_dim 
        where d_year = 1999 
-         and d_moy = 7 
+         and d_moy = 3 
          and ws_sold_date_sk = d_date_sk 
          and ws_item_sk in (select item_sk from frequent_ss_items)
          and ws_bill_customer_sk in (select c_customer_sk from best_ss_customer)) x
@@ -86,7 +86,7 @@ with frequent_ss_items as
             ,customer
             ,date_dim 
         where d_year = 1999 
-         and d_moy = 7 
+         and d_moy = 3 
          and cs_sold_date_sk = d_date_sk 
          and cs_item_sk in (select item_sk from frequent_ss_items)
          and cs_bill_customer_sk in (select c_customer_sk from best_ss_customer)
@@ -98,7 +98,7 @@ with frequent_ss_items as
            ,customer
            ,date_dim 
        where d_year = 1999 
-         and d_moy = 7 
+         and d_moy = 3 
          and ws_sold_date_sk = d_date_sk 
          and ws_item_sk in (select item_sk from frequent_ss_items)
          and ws_bill_customer_sk in (select c_customer_sk from best_ss_customer)

@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 52 in stream 0 using template query93.tpl and seed 199321104
+-- start query 52 in stream 0 using template query93.tpl and seed 1999009885
 select  ss_customer_sk
             ,sum(act_sales) sumsales
       from (select ss_item_sk
@@ -12,7 +12,7 @@ select  ss_customer_sk
                                                                and sr_ticket_number = ss_ticket_number)
                 ,reason
             where sr_reason_sk = r_reason_sk
-              and r_reason_desc = 'reason 55') t
+              and r_reason_desc = 'Did not like the warranty') t
       group by ss_customer_sk
       order by sumsales, ss_customer_sk
 limit 100;

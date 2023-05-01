@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 73 in stream 0 using template query34.tpl and seed 1308232526
+-- start query 73 in stream 0 using template query34.tpl and seed 418387625
 select c_last_name
        ,c_first_name
        ,c_salutation
@@ -16,15 +16,15 @@ select c_last_name
     and store_sales.ss_hdemo_sk = household_demographics.hd_demo_sk
     and (date_dim.d_dom between 1 and 3 or date_dim.d_dom between 25 and 28)
     and (household_demographics.hd_buy_potential = '501-1000' or
-         household_demographics.hd_buy_potential = 'unknown')
+         household_demographics.hd_buy_potential = '0-500')
     and household_demographics.hd_vehicle_count > 0
     and (case when household_demographics.hd_vehicle_count > 0 
 	then household_demographics.hd_dep_count/ household_demographics.hd_vehicle_count 
 	else null 
 	end)  > 1.2
-    and date_dim.d_year in (2000,2000+1,2000+2)
-    and store.s_county in ('Ziebach County','Walker County','Williamson County','Williamson County',
-                           'Ziebach County','Ziebach County','Ziebach County','Ziebach County')
+    and date_dim.d_year in (1998,1998+1,1998+2)
+    and store.s_county in ('Williamson County','Williamson County','Williamson County','Williamson County',
+                           'Williamson County','Williamson County','Williamson County','Williamson County')
     group by ss_ticket_number,ss_customer_sk) dn,customer
     where ss_customer_sk = c_customer_sk
       and cnt between 15 and 20

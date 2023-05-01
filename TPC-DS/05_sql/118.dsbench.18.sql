@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 90 in stream 0 using template query18.tpl and seed 942817306
+-- start query 90 in stream 0 using template query18.tpl and seed 1570825942
 select  i_item_id,
         ca_country,
         ca_state, 
@@ -18,14 +18,14 @@ select  i_item_id,
        cs_item_sk = i_item_sk and
        cs_bill_cdemo_sk = cd1.cd_demo_sk and
        cs_bill_customer_sk = c_customer_sk and
-       cd1.cd_gender = 'M' and 
+       cd1.cd_gender = 'F' and 
        cd1.cd_education_status = 'College' and
        c_current_cdemo_sk = cd2.cd_demo_sk and
        c_current_addr_sk = ca_address_sk and
-       c_birth_month in (12,5,3,6,1,8) and
-       d_year = 1999 and
-       ca_state in ('MN','NC','NE'
-                   ,'GA','WV','IN','ID')
+       c_birth_month in (3,6,2,5,7,11) and
+       d_year = 2000 and
+       ca_state in ('NE','MT','FL'
+                   ,'OH','IA','TN','MI')
  group by rollup (i_item_id, ca_country, ca_state, ca_county)
  order by ca_country,
         ca_state, 

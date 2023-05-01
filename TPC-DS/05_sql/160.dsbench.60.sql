@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 29 in stream 0 using template query60.tpl and seed 741119495
+-- start query 29 in stream 0 using template query60.tpl and seed 1773190043
 with ss as (
  select
           i_item_id,sum(ss_ext_sales_price) total_sales
@@ -14,13 +14,13 @@ with ss as (
   i_item_id
 from
  item
-where i_category in ('Music'))
+where i_category in ('Shoes'))
  and     ss_item_sk              = i_item_sk
  and     ss_sold_date_sk         = d_date_sk
- and     d_year                  = 1998
+ and     d_year                  = 2001
  and     d_moy                   = 10
  and     ss_addr_sk              = ca_address_sk
- and     ca_gmt_offset           = -5 
+ and     ca_gmt_offset           = -6 
  group by i_item_id),
  cs as (
  select
@@ -35,13 +35,13 @@ where i_category in ('Music'))
   i_item_id
 from
  item
-where i_category in ('Music'))
+where i_category in ('Shoes'))
  and     cs_item_sk              = i_item_sk
  and     cs_sold_date_sk         = d_date_sk
- and     d_year                  = 1998
+ and     d_year                  = 2001
  and     d_moy                   = 10
  and     cs_bill_addr_sk         = ca_address_sk
- and     ca_gmt_offset           = -5 
+ and     ca_gmt_offset           = -6 
  group by i_item_id),
  ws as (
  select
@@ -56,13 +56,13 @@ where i_category in ('Music'))
   i_item_id
 from
  item
-where i_category in ('Music'))
+where i_category in ('Shoes'))
  and     ws_item_sk              = i_item_sk
  and     ws_sold_date_sk         = d_date_sk
- and     d_year                  = 1998
+ and     d_year                  = 2001
  and     d_moy                   = 10
  and     ws_bill_addr_sk         = ca_address_sk
- and     ca_gmt_offset           = -5
+ and     ca_gmt_offset           = -6
  group by i_item_id)
   select   
   i_item_id

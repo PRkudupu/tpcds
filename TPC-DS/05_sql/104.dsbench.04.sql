@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 93 in stream 0 using template query4.tpl and seed 375791789
+-- start query 93 in stream 0 using template query4.tpl and seed 1201070057
 with year_total as (
  select c_customer_id customer_id
        ,c_first_name customer_first_name
@@ -78,7 +78,7 @@ union all
                   t_s_secyear.customer_id
                  ,t_s_secyear.customer_first_name
                  ,t_s_secyear.customer_last_name
-                 ,t_s_secyear.customer_login
+                 ,t_s_secyear.customer_preferred_cust_flag
  from year_total t_s_firstyear
      ,year_total t_s_secyear
      ,year_total t_c_firstyear
@@ -112,7 +112,7 @@ union all
  order by t_s_secyear.customer_id
          ,t_s_secyear.customer_first_name
          ,t_s_secyear.customer_last_name
-         ,t_s_secyear.customer_login
+         ,t_s_secyear.customer_preferred_cust_flag
 limit 100;
 
 -- end query 93 in stream 0 using template query4.tpl

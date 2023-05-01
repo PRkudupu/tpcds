@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 72 in stream 0 using template query71.tpl and seed 788309390
+-- start query 72 in stream 0 using template query71.tpl and seed 1774031290
 select i_brand_id brand_id, i_brand brand,t_hour,t_minute,
  	sum(ext_price) ext_price
  from item, (select ws_ext_sales_price as ext_price, 

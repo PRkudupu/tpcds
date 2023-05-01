@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 98 in stream 0 using template query5.tpl and seed 38360560
+-- start query 98 in stream 0 using template query5.tpl and seed 863234144
 with ssr as
  (select s_store_id,
         sum(sales_price) as sales,
@@ -27,8 +27,8 @@ with ssr as
      date_dim,
      store
  where date_sk = d_date_sk
-       and d_date between cast('2002-08-03' as date) 
-                  and (cast('2002-08-03' as date) +  '14 days'::interval)
+       and d_date between cast('1999-08-08' as date) 
+                  and (cast('1999-08-08' as date) +  '14 days'::interval)
        and store_sk = s_store_sk
  group by s_store_id)
  ,
@@ -58,8 +58,8 @@ with ssr as
      date_dim,
      catalog_page
  where date_sk = d_date_sk
-       and d_date between cast('2002-08-03' as date)
-                  and (cast('2002-08-03' as date) +  '14 days'::interval)
+       and d_date between cast('1999-08-08' as date)
+                  and (cast('1999-08-08' as date) +  '14 days'::interval)
        and page_sk = cp_catalog_page_sk
  group by cp_catalog_page_id)
  ,
@@ -91,8 +91,8 @@ with ssr as
      date_dim,
      web_site
  where date_sk = d_date_sk
-       and d_date between cast('2002-08-03' as date)
-                  and (cast('2002-08-03' as date) +  '14 days'::interval)
+       and d_date between cast('1999-08-08' as date)
+                  and (cast('1999-08-08' as date) +  '14 days'::interval)
        and wsr_web_site_sk = web_site_sk
  group by web_site_id)
   select  channel

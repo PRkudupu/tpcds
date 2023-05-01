@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 65 in stream 0 using template query20.tpl and seed 1898339426
+-- start query 65 in stream 0 using template query20.tpl and seed 1361672659
 select  i_item_id
        ,i_item_desc 
        ,i_category 
@@ -13,10 +13,10 @@ select  i_item_id
      ,item 
      ,date_dim
  where cs_item_sk = i_item_sk 
-   and i_category in ('Women', 'Sports', 'Jewelry')
+   and i_category in ('Books', 'Children', 'Sports')
    and cs_sold_date_sk = d_date_sk
- and d_date between cast('1999-02-09' as date) 
- 				and (cast('1999-02-09' as date) + '30 days'::interval)
+ and d_date between cast('2000-04-25' as date) 
+ 				and (cast('2000-04-25' as date) + '30 days'::interval)
  group by i_item_id
          ,i_item_desc 
          ,i_category

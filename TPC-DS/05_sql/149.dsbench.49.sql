@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 48 in stream 0 using template query49.tpl and seed 1954179395
+-- start query 48 in stream 0 using template query49.tpl and seed 600679247
 select  
  'web' as channel
  ,web.item
@@ -31,8 +31,8 @@ select
                          and ws.ws_net_paid > 0
                          and ws.ws_quantity > 0
                          and ws_sold_date_sk = d_date_sk
-                         and d_year = 1998
-                         and d_moy = 11
+                         and d_year = 2000
+                         and d_moy = 12
  		group by ws.ws_item_sk
  	) in_web
  ) web
@@ -74,8 +74,8 @@ select
                          and cs.cs_net_paid > 0
                          and cs.cs_quantity > 0
                          and cs_sold_date_sk = d_date_sk
-                         and d_year = 1998
-                         and d_moy = 11
+                         and d_year = 2000
+                         and d_moy = 12
                  group by cs.cs_item_sk
  	) in_cat
  ) catalog
@@ -113,8 +113,8 @@ select
                          and sts.ss_net_paid > 0 
                          and sts.ss_quantity > 0
                          and ss_sold_date_sk = d_date_sk
-                         and d_year = 1998
-                         and d_moy = 11
+                         and d_year = 2000
+                         and d_moy = 12
  		group by sts.ss_item_sk
  	) in_store
  ) store

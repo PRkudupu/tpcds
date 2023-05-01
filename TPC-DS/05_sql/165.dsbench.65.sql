@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 71 in stream 0 using template query65.tpl and seed 2099509527
+-- start query 71 in stream 0 using template query65.tpl and seed 830200533
 select 
 	s_store_name,
 	i_item_desc,
@@ -14,12 +14,12 @@ select
  	    (select  ss_store_sk, ss_item_sk, 
  		     sum(ss_sales_price) as revenue
  		from store_sales, date_dim
- 		where ss_sold_date_sk = d_date_sk and d_month_seq between 1186 and 1186+11
+ 		where ss_sold_date_sk = d_date_sk and d_month_seq between 1177 and 1177+11
  		group by ss_store_sk, ss_item_sk) sa
  	group by ss_store_sk) sb,
      (select  ss_store_sk, ss_item_sk, sum(ss_sales_price) as revenue
  	from store_sales, date_dim
- 	where ss_sold_date_sk = d_date_sk and d_month_seq between 1186 and 1186+11
+ 	where ss_sold_date_sk = d_date_sk and d_month_seq between 1177 and 1177+11
  	group by ss_store_sk, ss_item_sk) sc
  where sb.ss_store_sk = sc.ss_store_sk and 
        sc.revenue <= 0.1 * sb.ave and

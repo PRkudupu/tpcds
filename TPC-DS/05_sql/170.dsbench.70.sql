@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 34 in stream 0 using template query70.tpl and seed 2106166525
+-- start query 34 in stream 0 using template query70.tpl and seed 213280197
 select * from (select  
     sum(ss_net_profit) as total_sum
    ,s_state
@@ -15,7 +15,7 @@ select * from (select
    ,date_dim       d1
    ,store
  where
-    d1.d_month_seq between 1191 and 1191+11
+    d1.d_month_seq between 1180 and 1180+11
  and d1.d_date_sk = ss_sold_date_sk
  and s_store_sk  = ss_store_sk
  and s_state in
@@ -23,7 +23,7 @@ select * from (select
                from  (select s_state as s_state,
  			    rank() over ( partition by s_state order by sum(ss_net_profit) desc) as ranking
                       from   store_sales, store, date_dim
-                      where  d_month_seq between 1191 and 1191+11
+                      where  d_month_seq between 1180 and 1180+11
  			    and d_date_sk = ss_sold_date_sk
  			    and s_store_sk  = ss_store_sk
                       group by s_state

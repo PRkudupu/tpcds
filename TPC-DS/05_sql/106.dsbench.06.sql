@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 58 in stream 0 using template query6.tpl and seed 1455662857
+-- start query 58 in stream 0 using template query6.tpl and seed 184082460
 select  a.ca_state state, count(*) cnt
  from customer_address a
      ,customer c
@@ -14,8 +14,8 @@ select  a.ca_state state, count(*) cnt
  	and d.d_month_seq = 
  	     (select distinct (d_month_seq)
  	      from date_dim
-               where d_year = 2000
- 	        and d_moy = 3 )
+               where d_year = 1998
+ 	        and d_moy = 2 )
  	and i.i_current_price > 1.2 * 
              (select avg(j.i_current_price) 
  	     from item j 

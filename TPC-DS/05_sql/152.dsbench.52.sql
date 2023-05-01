@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 59 in stream 0 using template query52.tpl and seed 1056437609
+-- start query 59 in stream 0 using template query52.tpl and seed 1340787587
 select  dt.d_year
  	,item.i_brand_id brand_id
  	,item.i_brand brand

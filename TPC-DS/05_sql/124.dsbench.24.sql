@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 92 in stream 0 using template query24.tpl and seed 207480729
+-- start query 92 in stream 0 using template query24.tpl and seed 1481808713
 with ssales as
 (select c_last_name
       ,c_first_name
@@ -12,7 +12,7 @@ with ssales as
       ,i_manager_id
       ,i_units
       ,i_size
-      ,sum(ss_net_profit) netpaid
+      ,sum(ss_net_paid) netpaid
 from store_sales
     ,store_returns
     ,store
@@ -26,7 +26,7 @@ where ss_ticket_number = sr_ticket_number
   and ss_store_sk = s_store_sk
   and c_birth_country = upper(ca_country)
   and s_zip = ca_zip
-and s_market_id=8
+and s_market_id=10
 group by c_last_name
         ,c_first_name
         ,s_store_name
@@ -42,7 +42,7 @@ select c_last_name
       ,s_store_name
       ,sum(netpaid) paid
 from ssales
-where i_color = 'medium'
+where i_color = 'papaya'
 group by c_last_name
         ,c_first_name
         ,s_store_name
@@ -61,7 +61,7 @@ with ssales as
       ,i_manager_id
       ,i_units
       ,i_size
-      ,sum(ss_net_profit) netpaid
+      ,sum(ss_net_paid) netpaid
 from store_sales
     ,store_returns
     ,store
@@ -75,7 +75,7 @@ where ss_ticket_number = sr_ticket_number
   and ss_store_sk = s_store_sk
   and c_birth_country = upper(ca_country)
   and s_zip = ca_zip
-  and s_market_id = 8
+  and s_market_id = 10
 group by c_last_name
         ,c_first_name
         ,s_store_name
@@ -91,7 +91,7 @@ select c_last_name
       ,s_store_name
       ,sum(netpaid) paid
 from ssales
-where i_color = 'pale'
+where i_color = 'blanched'
 group by c_last_name
         ,c_first_name
         ,s_store_name

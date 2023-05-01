@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 57 in stream 0 using template query15.tpl and seed 710902365
+-- start query 57 in stream 0 using template query15.tpl and seed 699364695
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales

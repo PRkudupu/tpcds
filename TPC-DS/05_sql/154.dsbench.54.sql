@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 81 in stream 0 using template query54.tpl and seed 534483294
+-- start query 81 in stream 0 using template query54.tpl and seed 1584589753
 with my_customers as (
  select distinct c_customer_sk
         , c_current_addr_sk
@@ -20,11 +20,11 @@ with my_customers as (
          customer
  where   sold_date_sk = d_date_sk
          and item_sk = i_item_sk
-         and i_category = 'Music'
-         and i_class = 'rock'
+         and i_category = 'Electronics'
+         and i_class = 'scanners'
          and c_customer_sk = cs_or_ws_sales.customer_sk
          and d_moy = 6
-         and d_year = 2002
+         and d_year = 2001
  )
  , my_revenue as (
  select c_customer_sk,
@@ -40,9 +40,9 @@ with my_customers as (
         and ss_sold_date_sk = d_date_sk
         and c_customer_sk = ss_customer_sk
         and d_month_seq between (select distinct d_month_seq+1
-                                 from   date_dim where d_year = 2002 and d_moy = 6)
+                                 from   date_dim where d_year = 2001 and d_moy = 6)
                            and  (select distinct d_month_seq+3
-                                 from   date_dim where d_year = 2002 and d_moy = 6)
+                                 from   date_dim where d_year = 2001 and d_moy = 6)
  group by c_customer_sk
  )
  , segments as

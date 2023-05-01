@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 41 in stream 0 using template query17.tpl and seed 396342913
+-- start query 41 in stream 0 using template query17.tpl and seed 1436472711
 select  i_item_id
        ,i_item_desc
        ,s_state
@@ -23,7 +23,7 @@ select  i_item_id
      ,date_dim d3
      ,store
      ,item
- where d1.d_quarter_name = '2001Q1'
+ where d1.d_quarter_name = '1999Q1'
    and d1.d_date_sk = ss_sold_date_sk
    and i_item_sk = ss_item_sk
    and s_store_sk = ss_store_sk
@@ -31,11 +31,11 @@ select  i_item_id
    and ss_item_sk = sr_item_sk
    and ss_ticket_number = sr_ticket_number
    and sr_returned_date_sk = d2.d_date_sk
-   and d2.d_quarter_name in ('2001Q1','2001Q2','2001Q3')
+   and d2.d_quarter_name in ('1999Q1','1999Q2','1999Q3')
    and sr_customer_sk = cs_bill_customer_sk
    and sr_item_sk = cs_item_sk
    and cs_sold_date_sk = d3.d_date_sk
-   and d3.d_quarter_name in ('2001Q1','2001Q2','2001Q3')
+   and d3.d_quarter_name in ('1999Q1','1999Q2','1999Q3')
  group by i_item_id
          ,i_item_desc
          ,s_state

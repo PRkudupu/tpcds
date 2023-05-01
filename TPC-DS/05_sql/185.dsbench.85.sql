@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 33 in stream 0 using template query85.tpl and seed 554533094
+-- start query 33 in stream 0 using template query85.tpl and seed 146185195
 select  substr(r_reason_desc,1,20)
        ,avg(ws_quantity)
        ,avg(wr_refunded_cash)
@@ -18,7 +18,7 @@ select  substr(r_reason_desc,1,20)
    and
    (
     (
-     cd1.cd_marital_status = 'W'
+     cd1.cd_marital_status = 'D'
      and
      cd1.cd_marital_status = cd2.cd_marital_status
      and
@@ -30,11 +30,11 @@ select  substr(r_reason_desc,1,20)
     )
    or
     (
-     cd1.cd_marital_status = 'D'
+     cd1.cd_marital_status = 'U'
      and
      cd1.cd_marital_status = cd2.cd_marital_status
      and
-     cd1.cd_education_status = 'College' 
+     cd1.cd_education_status = 'Unknown' 
      and
      cd1.cd_education_status = cd2.cd_education_status
      and
@@ -42,11 +42,11 @@ select  substr(r_reason_desc,1,20)
     )
    or
     (
-     cd1.cd_marital_status = 'S'
+     cd1.cd_marital_status = 'M'
      and
      cd1.cd_marital_status = cd2.cd_marital_status
      and
-     cd1.cd_education_status = '2 yr Degree'
+     cd1.cd_education_status = 'Advanced Degree'
      and
      cd1.cd_education_status = cd2.cd_education_status
      and
@@ -58,21 +58,21 @@ select  substr(r_reason_desc,1,20)
     (
      ca_country = 'United States'
      and
-     ca_state in ('PA', 'IN', 'VA')
+     ca_state in ('SC', 'IN', 'VA')
      and ws_net_profit between 100 and 200  
     )
     or
     (
      ca_country = 'United States'
      and
-     ca_state in ('TX', 'MO', 'MS')
+     ca_state in ('WA', 'KS', 'KY')
      and ws_net_profit between 150 and 300  
     )
     or
     (
      ca_country = 'United States'
      and
-     ca_state in ('MT', 'OR', 'MN')
+     ca_state in ('SD', 'WI', 'NE')
      and ws_net_profit between 50 and 250  
     )
    )

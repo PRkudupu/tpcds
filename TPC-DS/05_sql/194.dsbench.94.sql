@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 17 in stream 0 using template query94.tpl and seed 1466463182
+-- start query 17 in stream 0 using template query94.tpl and seed 487481716
 select  
    count(distinct ws_order_number) as "order count"
   ,sum(ws_ext_ship_cost) as "total shipping cost"
@@ -11,11 +11,11 @@ from
   ,customer_address
   ,web_site
 where
-    d_date between '2001-5-01' and 
-           (cast('2001-5-01' as date) + '60 days'::interval)
+    d_date between '1999-4-01' and 
+           (cast('1999-4-01' as date) + '60 days'::interval)
 and ws1.ws_ship_date_sk = d_date_sk
 and ws1.ws_ship_addr_sk = ca_address_sk
-and ca_state = 'AR'
+and ca_state = 'WI'
 and ws1.ws_web_site_sk = web_site_sk
 and web_company_name = 'pri'
 and exists (select *

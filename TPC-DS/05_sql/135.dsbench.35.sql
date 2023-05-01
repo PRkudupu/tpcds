@@ -1,24 +1,24 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 47 in stream 0 using template query35.tpl and seed 2025785804
+-- start query 47 in stream 0 using template query35.tpl and seed 496963072
 select   
   ca_state,
   cd_gender,
   cd_marital_status,
   cd_dep_count,
   count(*) cnt1,
-  sum(cd_dep_count),
-  min(cd_dep_count),
+  stddev_samp(cd_dep_count),
+  stddev_samp(cd_dep_count),
   min(cd_dep_count),
   cd_dep_employed_count,
   count(*) cnt2,
-  sum(cd_dep_employed_count),
-  min(cd_dep_employed_count),
+  stddev_samp(cd_dep_employed_count),
+  stddev_samp(cd_dep_employed_count),
   min(cd_dep_employed_count),
   cd_dep_college_count,
   count(*) cnt3,
-  sum(cd_dep_college_count),
-  min(cd_dep_college_count),
+  stddev_samp(cd_dep_college_count),
+  stddev_samp(cd_dep_college_count),
   min(cd_dep_college_count)
  from
   customer c,customer_address ca,customer_demographics

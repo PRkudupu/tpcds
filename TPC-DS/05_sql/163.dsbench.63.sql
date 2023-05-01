@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 27 in stream 0 using template query63.tpl and seed 1866182888
+-- start query 27 in stream 0 using template query63.tpl and seed 66426022
 select  * 
 from (select i_manager_id
              ,sum(ss_sales_price) sum_sales
@@ -12,7 +12,7 @@ from (select i_manager_id
       where ss_item_sk = i_item_sk
         and ss_sold_date_sk = d_date_sk
         and ss_store_sk = s_store_sk
-        and d_month_seq in (1179,1179+1,1179+2,1179+3,1179+4,1179+5,1179+6,1179+7,1179+8,1179+9,1179+10,1179+11)
+        and d_month_seq in (1181,1181+1,1181+2,1181+3,1181+4,1181+5,1181+6,1181+7,1181+8,1181+9,1181+10,1181+11)
         and ((    i_category in ('Books','Children','Electronics')
               and i_class in ('personal','portable','reference','self-help')
               and i_brand in ('scholaramalgamalg #14','scholaramalgamalg #7',

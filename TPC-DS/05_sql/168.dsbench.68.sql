@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 95 in stream 0 using template query68.tpl and seed 1140731396
+-- start query 95 in stream 0 using template query68.tpl and seed 867053170
 select  c_last_name
        ,c_first_name
        ,ca_city
@@ -25,10 +25,10 @@ select  c_last_name
         and store_sales.ss_hdemo_sk = household_demographics.hd_demo_sk
         and store_sales.ss_addr_sk = customer_address.ca_address_sk
         and date_dim.d_dom between 1 and 2 
-        and (household_demographics.hd_dep_count = 6 or
-             household_demographics.hd_vehicle_count= 3)
+        and (household_demographics.hd_dep_count = 0 or
+             household_demographics.hd_vehicle_count= 1)
         and date_dim.d_year in (1999,1999+1,1999+2)
-        and store.s_city in ('Midway','Five Points')
+        and store.s_city in ('Fairview','Midway')
        group by ss_ticket_number
                ,ss_customer_sk
                ,ss_addr_sk,ca_city) dn

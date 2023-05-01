@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 84 in stream 0 using template query2.tpl and seed 1718861218
+-- start query 84 in stream 0 using template query2.tpl and seed 1942956131
 with wscs as
  (select sold_date_sk
         ,sales_price
@@ -43,7 +43,7 @@ with wscs as
         ,sat_sales sat_sales1
   from wswscs,date_dim 
   where date_dim.d_week_seq = wswscs.d_week_seq and
-        d_year = 2000) y,
+        d_year = 2001) y,
  (select wswscs.d_week_seq d_week_seq2
         ,sun_sales sun_sales2
         ,mon_sales mon_sales2
@@ -55,7 +55,7 @@ with wscs as
   from wswscs
       ,date_dim 
   where date_dim.d_week_seq = wswscs.d_week_seq and
-        d_year = 2000+1) z
+        d_year = 2001+1) z
  where d_week_seq1=d_week_seq2-53
  order by d_week_seq1;
 

@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 20 in stream 0 using template query64.tpl and seed 50309708
+-- start query 20 in stream 0 using template query64.tpl and seed 47789446
 with cs_ui as
  (select cs_item_sk
         ,sum(cs_ext_list_price) as sale,sum(cr_refunded_cash+cr_reversed_charge+cr_store_credit) as refund
@@ -67,9 +67,9 @@ cross_sales as
          hd1.hd_income_band_sk = ib1.ib_income_band_sk and
          hd2.hd_income_band_sk = ib2.ib_income_band_sk and
          cd1.cd_marital_status <> cd2.cd_marital_status and
-         i_color in ('lawn','blush','smoke','ghost','floral','chartreuse') and
-         i_current_price between 51 and 51 + 10 and
-         i_current_price between 51 + 1 and 51 + 15
+         i_color in ('light','cyan','burnished','green','almond','smoke') and
+         i_current_price between 22 and 22 + 10 and
+         i_current_price between 22 + 1 and 22 + 15
 group by i_product_name
        ,i_item_sk
        ,s_store_name

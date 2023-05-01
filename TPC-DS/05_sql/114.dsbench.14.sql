@@ -1,6 +1,6 @@
 set role dsbench;
 :EXPLAIN_ANALYZE
--- start query 69 in stream 0 using template query14.tpl and seed 971583983
+-- start query 69 in stream 0 using template query14.tpl and seed 34301273
 with  cross_items as
  (select i_item_sk ss_item_sk
  from item,
@@ -174,7 +174,7 @@ with  cross_items as
                      from date_dim
                      where d_year = 2000 + 1
                        and d_moy = 12
-                       and d_dom = 6)
+                       and d_dom = 24)
  group by i_brand_id,i_class_id,i_category_id
  having sum(ss_quantity*ss_list_price) > (select average_sales from avg_sales)) this_year,
  (select 'store' channel, i_brand_id,i_class_id
@@ -189,7 +189,7 @@ with  cross_items as
                      from date_dim
                      where d_year = 2000
                        and d_moy = 12
-                       and d_dom = 6)
+                       and d_dom = 24)
  group by i_brand_id,i_class_id,i_category_id
  having sum(ss_quantity*ss_list_price) > (select average_sales from avg_sales)) last_year
  where this_year.i_brand_id= last_year.i_brand_id
