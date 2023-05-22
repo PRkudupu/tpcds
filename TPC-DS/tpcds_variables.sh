@@ -14,7 +14,7 @@ export MULTI_USER_COUNT="2"
 
 # step options
 # step 00_compile_tpcds
-export RUN_COMPILE_TPCDS="true"
+export RUN_COMPILE_TPCDS="false"
 
 # step 01_gen_data
 # To run another TPC-DS with a different BENCH_ROLE using existing tables and data
@@ -22,10 +22,10 @@ export RUN_COMPILE_TPCDS="true"
 # change BENCH_ROLE and set RUN_GEN_DATA to true and GEN_NEW_DATA to false
 # GEN_NEW_DATA only takes affect when RUN_GEN_DATA is true, and the default setting
 # should true under normal circumstances
-export RUN_GEN_DATA="true"
-export GEN_NEW_DATA="true"
+export RUN_GEN_DATA="false"
+export GEN_NEW_DATA="false"
 
-# step 02_init
+# t step 02_init
 export RUN_INIT="false"
 
 # step 03_ddl
@@ -40,7 +40,7 @@ export DROP_EXISTING_TABLES="false"
 export RUN_LOAD="false"
 
 # step 05_sql
-export RUN_SQL="false"
+export RUN_SQL="true"
 
 # step 06_single_user_reports
 export RUN_SINGLE_USER_REPORTS="false"
